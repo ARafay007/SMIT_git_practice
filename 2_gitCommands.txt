@@ -25,3 +25,21 @@ git push -u origin main/master
 git add .
 git commit -m "your commit message"
 git push
+
+===========TO CREATE A NEW BRANCH FROM YOUR main/master BRANCH===========
+
+// you will be automatically switch to this new branch
+
+git checkout -b newBranchName
+
+
+//to check all local branches
+git branch
+
+
+===========TO PULL NEW CHANGES FROM REMOTE BRANCH===========
+git pull
+
+
+===========TO CLONE A REPOSITORY===========
+git clone <repository link>
