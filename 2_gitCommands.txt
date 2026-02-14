@@ -1,0 +1,22 @@
+===========FOR INIT COMMIT===========
+git init
+
+// set user name (only when your user name is not set)
+git config user.name "your name"
+
+//set user email (only when your user email is not set)
+git config user.email "yourEmail@email.com"
+
+git add (filename)/ .
+
+git commit -m "your commit message"
+
+//connect remote repository
+git remote add origin <remote_url>
+
+//to check remote repository
+git remote -v
+
+git branch -M main
+
+git push -u origin main/master
