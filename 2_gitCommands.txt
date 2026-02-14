@@ -20,3 +20,8 @@ git remote -v
 git branch -M main
 
 git push -u origin main/master
+
+===========FOR SECOND TIME COMMIT===========
+git add .
+git commit -m "your commit message"
+git push
